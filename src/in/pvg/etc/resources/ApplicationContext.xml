@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="in.pvg.etc.StudentsData.Student" id="sID1">
+    	<property name="name" value="Ravi" />
+    	<property name="RollNo" value="10" />
+    	<property name="City" value="Dhanakawadi, Pune" />
+    </bean>
+    
+    
+    <bean class="in.pvg.etc.StudentsData.Student" id="sID2">
+    	<property name="name" value="Nisha" />
+    	<property name="RollNo" value="8" />
+    	<property name="City" value="Shewalwadi, Pune" />
+    
+    </bean>
+
+</beans>
